@@ -8,7 +8,7 @@ use Symfony\Component\Debug\Exception\FatalThrowableError;
 class Template
 {
     public static function eval($string, $data = []) {
-        $php = str_replace(['&gt;', '&amp;'], ['>', '&'], Blade::compileString($string));
+        $php = str_replace(['&gt;', '&amp;'], ['>', '&'],  Blade::compileString($string));
 
         $obLevel = ob_get_level();
         ob_start();
