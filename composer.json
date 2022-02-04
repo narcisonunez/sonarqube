@@ -34,6 +34,7 @@
         "mockery/mockery": "^1.4.2",
         "nunomaduro/collision": "^5.0",
         "nunomaduro/larastan": "^1.0",
+        "nunomaduro/phpinsights": "^2.1",
         "overtrue/phplint": "^3.0",
         "phpstan/phpstan": "^1.4",
         "phpunit/phpunit": "^9.3.3",
